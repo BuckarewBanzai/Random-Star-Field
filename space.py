@@ -13,7 +13,6 @@ def space(arg=None):
 
     field = ''
 
-    key = random.choice(list(stars))
     for y in range(6):
         for x in range(6):
             for z, q in stars.items():
